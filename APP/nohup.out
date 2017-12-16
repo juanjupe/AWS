@@ -1,0 +1,145 @@
+[16/Dec/2017 11:58:21] "GET /TJ/juego_lista/ HTTP/1.0" 200 306919
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 11:58:21] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5066
+[16/Dec/2017 11:58:24] "GET /TJ/cerrar/ HTTP/1.0" 302 0
+[16/Dec/2017 11:58:33] "GET /TJ/ HTTP/1.0" 302 0
+[16/Dec/2017 11:58:33] "GET /TJ/juego_lista/ HTTP/1.0" 200 149792
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 11:58:33] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5066
+[16/Dec/2017 11:58:49] "GET /TJ/juego_lista/ HTTP/1.0" 200 149792
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 11:58:49] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5066
+[16/Dec/2017 11:58:50] "GET /TJ/juego_lista/ HTTP/1.0" 200 149792
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 11:58:50] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5066
+[16/Dec/2017 11:58:50] "GET /TJ/juego_lista/ HTTP/1.0" 200 149792
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 11:58:51] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5066
+[16/Dec/2017 14:23:16] "GET /TJ/juego_lista/ HTTP/1.0" 200 149792
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 14:23:16] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5066
+[16/Dec/2017 16:28:14] "GET /TJ/juego_lista/ HTTP/1.0" 200 149792
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 16:28:14] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5066
+[16/Dec/2017 16:28:17] "GET /TJ/ingresar/ HTTP/1.0" 200 2949
+Not Found: /TJ/ingresar/navbar-top.css
+[16/Dec/2017 16:28:17] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5057
+[16/Dec/2017 16:28:22] "POST /TJ/ingresar/ HTTP/1.0" 302 0
+[16/Dec/2017 16:28:22] "GET /TJ/privado HTTP/1.0" 301 0
+[16/Dec/2017 16:28:22] "GET /TJ/privado/ HTTP/1.0" 200 2713
+Not Found: /TJ/privado/navbar-top.css
+[16/Dec/2017 16:28:22] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5054
+[16/Dec/2017 16:28:24] "GET /TJ/juego_lista/ HTTP/1.0" 200 306919
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 16:28:24] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5066
+[16/Dec/2017 16:28:28] "GET /TJ/cerrar/ HTTP/1.0" 302 0
+[16/Dec/2017 18:11:44] "GET /TJ/juego_lista/ HTTP/1.0" 200 149792
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 18:11:44] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5066
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 16, 2017 - 11:57:59
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[16/Dec/2017 18:39:37] "GET /TJ/ingresar/ HTTP/1.0" 200 2975
+Not Found: /TJ/ingresar/iaw2018.servehttp.com/TJ/statictp/css/style.css
+[16/Dec/2017 18:39:37] "GET /TJ/ingresar/iaw2018.servehttp.com/TJ/statictp/css/style.css HTTP/1.0" 404 5187
+Not Found: /TJ/ingresar/navbar-top.css
+[16/Dec/2017 18:39:37] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5088
+[16/Dec/2017 18:39:50] "GET /TJ/ HTTP/1.0" 302 0
+[16/Dec/2017 18:39:50] "GET /TJ/juego_lista HTTP/1.0" 301 0
+[16/Dec/2017 18:39:50] "GET /TJ/juego_lista/ HTTP/1.0" 200 149818
+Not Found: /TJ/juego_lista/iaw2018.servehttp.com/TJ/statictp/css/style.css
+[16/Dec/2017 18:39:51] "GET /TJ/juego_lista/iaw2018.servehttp.com/TJ/statictp/css/style.css HTTP/1.0" 404 5196
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 18:39:51] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5097
+Not Found: /TJ/juego_lista/iaw2018.servehttp.com/TJ/statictp/css/style.css
+[16/Dec/2017 18:39:52] "GET /TJ/juego_lista/iaw2018.servehttp.com/TJ/statictp/css/style.css HTTP/1.0" 404 5196
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 18:39:52] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5097
+[16/Dec/2017 18:40:00] "GET /TJ/juego_detalle/2739/ HTTP/1.0" 200 2784
+Not Found: /TJ/juego_detalle/2739/iaw2018.servehttp.com/TJ/statictp/css/style.css
+[16/Dec/2017 18:40:01] "GET /TJ/juego_detalle/2739/iaw2018.servehttp.com/TJ/statictp/css/style.css HTTP/1.0" 404 5217
+Not Found: /TJ/juego_detalle/2739/navbar-top.css
+[16/Dec/2017 18:40:01] "GET /TJ/juego_detalle/2739/navbar-top.css HTTP/1.0" 404 5118
+[16/Dec/2017 18:40:10] "GET /TJ/juego_lista/ HTTP/1.0" 200 149818
+Not Found: /TJ/juego_lista/iaw2018.servehttp.com/TJ/statictp/css/style.css
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 18:40:10] "GET /TJ/juego_lista/iaw2018.servehttp.com/TJ/statictp/css/style.css HTTP/1.0" 404 5196
+[16/Dec/2017 18:40:10] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5097
+[16/Dec/2017 18:40:33] "GET /TJ/juego_lista/ HTTP/1.0" 200 149818
+Not Found: /TJ/juego_lista/iaw2018.servehttp.com/TJ/statictp/css/style.css
+[16/Dec/2017 18:40:33] "GET /TJ/juego_lista/iaw2018.servehttp.com/TJ/statictp/css/style.css HTTP/1.0" 404 5196
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 18:40:33] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5097
+[16/Dec/2017 18:40:33] "GET /TJ/juego_lista/ HTTP/1.0" 200 149818
+Not Found: /TJ/juego_lista/iaw2018.servehttp.com/TJ/statictp/css/style.css
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 18:40:33] "GET /TJ/juego_lista/iaw2018.servehttp.com/TJ/statictp/css/style.css HTTP/1.0" 404 5196
+[16/Dec/2017 18:40:33] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5097
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 16, 2017 - 18:38:46
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[16/Dec/2017 18:42:09] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 18:42:09] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5072
+[16/Dec/2017 18:42:09] "GET /TJ/statictp/css/style.css HTTP/1.0" 200 480
+[16/Dec/2017 18:42:09] "GET /TJ/statictp/css/imagen/si.png HTTP/1.0" 200 2819608
+[16/Dec/2017 18:42:22] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[16/Dec/2017 18:42:22] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5063
+[16/Dec/2017 18:42:29] "POST /TJ/ingresar/ HTTP/1.0" 302 0
+[16/Dec/2017 18:42:29] "GET /TJ/privado HTTP/1.0" 301 0
+[16/Dec/2017 18:42:29] "GET /TJ/privado/ HTTP/1.0" 200 2718
+Not Found: /TJ/privado/navbar-top.css
+[16/Dec/2017 18:42:29] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5060
+[16/Dec/2017 18:46:56] "GET /TJ/privado/ HTTP/1.0" 200 2718
+Not Found: /TJ/privado/navbar-top.css
+[16/Dec/2017 18:46:56] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5060
+[16/Dec/2017 18:46:56] "GET /TJ/privado/ HTTP/1.0" 200 2718
+Not Found: /TJ/privado/navbar-top.css
+[16/Dec/2017 18:46:56] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5060
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 16, 2017 - 18:41:38
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[16/Dec/2017 22:54:13] "GET /TJ/juego_lista/ HTTP/1.0" 200 306924
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 22:54:13] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5072
+[16/Dec/2017 22:54:13] "GET /TJ/statictp/css/style.css HTTP/1.0" 304 0
+[16/Dec/2017 22:54:13] "GET /TJ/statictp/css/imagen/si.png HTTP/1.0" 304 0
+[16/Dec/2017 22:54:21] "GET /TJ/juego_lista/ HTTP/1.0" 200 306924
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 22:54:21] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5072
+Not Found: /TJ/juego_lista/admin
+[16/Dec/2017 22:54:32] "GET /TJ/juego_lista/admin HTTP/1.0" 404 5045
+[16/Dec/2017 22:54:41] "GET /TJ/api/ HTTP/1.0" 200 53994
+[16/Dec/2017 22:54:41] "GET /TJ/statictp/rest_framework/css/bootstrap.min.css HTTP/1.0" 200 121200
+[16/Dec/2017 22:54:41] "GET /TJ/statictp/rest_framework/css/bootstrap-tweaks.css HTTP/1.0" 200 3385
+[16/Dec/2017 22:54:41] "GET /TJ/statictp/rest_framework/css/prettify.css HTTP/1.0" 200 817
+[16/Dec/2017 22:54:41] "GET /TJ/statictp/rest_framework/css/default.css HTTP/1.0" 200 1132
+[16/Dec/2017 22:54:41] "GET /TJ/statictp/rest_framework/js/jquery-1.12.4.min.js HTTP/1.0" 200 97163
+[16/Dec/2017 22:54:41] "GET /TJ/statictp/rest_framework/js/csrf.js HTTP/1.0" 200 1735
+[16/Dec/2017 22:54:41] "GET /TJ/statictp/rest_framework/js/ajax-form.js HTTP/1.0" 200 3597
+[16/Dec/2017 22:54:41] "GET /TJ/statictp/rest_framework/js/bootstrap.min.js HTTP/1.0" 200 37045
+[16/Dec/2017 22:54:41] "GET /TJ/statictp/rest_framework/js/prettify-min.js HTTP/1.0" 200 13632
+[16/Dec/2017 22:54:41] "GET /TJ/statictp/rest_framework/js/default.js HTTP/1.0" 200 1262
+[16/Dec/2017 22:54:42] "GET /TJ/statictp/rest_framework/img/grid.png HTTP/1.0" 200 1458
+[16/Dec/2017 22:54:45] "GET /TJ/usuario/nuevo HTTP/1.0" 200 4017
+Not Found: /TJ/usuario/navbar-top.css
+[16/Dec/2017 22:54:45] "GET /TJ/usuario/navbar-top.css HTTP/1.0" 404 5060
+[16/Dec/2017 22:54:47] "GET /TJ/juego_lista/ HTTP/1.0" 200 306924
+Not Found: /TJ/juego_lista/navbar-top.css
+[16/Dec/2017 22:54:47] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5072
+[16/Dec/2017 22:54:49] "GET /TJ/juego/create/ HTTP/1.0" 200 3832
+Not Found: /TJ/juego/create/navbar-top.css
+[16/Dec/2017 22:54:49] "GET /TJ/juego/create/navbar-top.css HTTP/1.0" 404 5075
