@@ -79,7 +79,7 @@ def Ingresar(request):
 			if user is not None:
 				if user.is_active:	
 					login(request,user)
-					return HttpResponseRedirect('/privado')
+					return HttpResponseRedirect('/TJ/privado')
 				else:
 					
 					return render(request,'noactivo.html')
