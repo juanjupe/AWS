@@ -117,7 +117,7 @@ LOGIN_REDIRECT_URL = "/home"
 # Redirect when login is not correct.
 
 LOGIN_URL = '/'
-MEDIA_URL = "/APP/media/"
+MEDIA_URL = "/TJ/APP/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR,"media")
 STATIC_ROOT = os.path.dirname(BASE_DIR), "static"
 

@@ -21,7 +21,7 @@ urlpatterns = [
 
 	url(r'^ingresar/$',views.Ingresar,name='ingresar'),
 	url(r'^privado/$',views.Privado,name='usuario_privado'),
-	url(r'^cerrar/$',views.Cerrar,name='cerrar_sesion'),
+	url(r'TJ/cerrar/$',views.Cerrar,name='cerrar_sesion'),
 	url(r'index/$', views.index, name="Index"),
     url(r'^api/$', views.JuegosList.as_view(),name='api'),
 	url(r'^$',RedirectView.as_view(url='/TJ/juego_lista')),

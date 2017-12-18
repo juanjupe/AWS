@@ -25,9 +25,9 @@ def index(request):
 		queryset = Asignada.objects.all()
 		table = Asignada_Table(queryset)
 		django_tables2.RequestConfig(request).configure(table)
-		return render(request, "inicio.html")
+		return render(request, "info.html")
 	else:
-		return render(request, "inicio.html")
+		return render(request, "info.html")
 
 
 class JuegosList(generics.ListCreateAPIView):

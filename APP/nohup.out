@@ -143,3 +143,806 @@ Not Found: /TJ/juego_lista/navbar-top.css
 [16/Dec/2017 22:54:49] "GET /TJ/juego/create/ HTTP/1.0" 200 3832
 Not Found: /TJ/juego/create/navbar-top.css
 [16/Dec/2017 22:54:49] "GET /TJ/juego/create/navbar-top.css HTTP/1.0" 404 5075
+[17/Dec/2017 16:18:15] code 400, message Bad request syntax ('\x05\x01\x00\x01')
+[17/Dec/2017 16:18:15] " " 400 -
+[17/Dec/2017 16:18:20] code 400, message Bad HTTP/0.9 request type ('\x12\x01\x004\x00\x00\x00\x00\x00\x00\x15\x00\x06\x01\x00\x1b\x00\x01\x02\x00\x1c\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xff in position 29: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[17/Dec/2017 16:18:24] code 400, message Bad request syntax ('\x00:\x00\x00\x01\x00\x00\x00\x019\x01,\x00\x00\x08\x00\x7f\xff\xc6\x0e\x00\x00\x01\x00\x00\x00\x00:\x00\x00\x08\x00AA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xff in position 18: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[17/Dec/2017 16:18:28] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0e\xe0\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[17/Dec/2017 16:18:33] code 400, message Bad request syntax ('\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00')
+[17/Dec/2017 16:18:33] "   T   user postgres database postgres application_name psql client_encoding UTF8  " 400 -
+[17/Dec/2017 16:18:33] code 400, message Bad request syntax ('info')
+[17/Dec/2017 16:18:33] "info" 400 -
+Invalid HTTP_HOST header: u'TopJuegos:8000'. You may need to add u'topjuegos' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:34] "GET /_cat HTTP/1.1" 400 59096
+[17/Dec/2017 16:18:38] code 400, message Bad HTTP/0.9 request type ('\x80')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[17/Dec/2017 16:18:43] code 400, message Bad request syntax ('\x00\x00\x00\xa7A\x00\x00\x00\x00\x00\x00\xd4\x07\x00\x00\x00\x00\x00\x00admin.$cmd\x00\x00\x00\x00\x00\xff\xff\xff\xff\x13\x00\x00\x00\x10ismaster\x00\x01\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xa7 in position 4: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[17/Dec/2017 16:18:47] code 400, message Bad request syntax ('stat')
+[17/Dec/2017 16:18:47] "stat" 400 -
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:47] "GET / HTTP/1.1" 400 59656
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:48] "GET / HTTP/1.1" 400 59656
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:49] "GET //phpmyadmin HTTP/1.1" 400 59777
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:49] "GET //robots.txt HTTP/1.1" 400 59777
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:50] "GET //data/admin/ver.txt HTTP/1.1" 400 59865
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:51] "GET //data/admin/verifies.txt HTTP/1.1" 400 59920
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:51] "GET //license.txt HTTP/1.1" 400 59788
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:52] "GET //readme.txt HTTP/1.1" 400 59777
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:52] "GET //help.txt HTTP/1.1" 400 59755
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:53] "GET //readme.html HTTP/1.1" 400 59788
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:54] "GET //wp-admin/css/colors-classic.css HTTP/1.1" 400 60008
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:54] "GET //wp-admin/js/media-upload.dev.js HTTP/1.1" 400 60008
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:55] "GET //wp-content/plugins/akismet/akismet.js HTTP/1.1" 400 60074
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:56] "GET //wp-content/themes/classic/rtl.css HTTP/1.1" 400 60030
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:56] "GET //wp-includes/css/buttons.css HTTP/1.1" 400 59964
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:57] "GET //SCRIPT/common.js HTTP/1.1" 400 59843
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:57] "GET //Ads/left.js HTTP/1.1" 400 59788
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:58] "GET //Css/Style.css HTTP/1.1" 400 59810
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:59] "GET //Images/ad.js HTTP/1.1" 400 59799
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:18:59] "GET //Script/Html.js HTTP/1.1" 400 59821
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:19:00] "GET //SiteFiles/Inner/Register/script.js HTTP/1.1" 400 60041
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:19:01] "GET //License/index.php HTTP/1.1" 400 59854
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:19:01] "GET //wcm/app/login.jsp HTTP/1.1" 400 59854
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:19:02] "GET //help/ HTTP/1.1" 400 59722
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:19:02] "GET //help/io_login.html HTTP/1.1" 400 59865
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:19:03] "GET / HTTP/1.1" 400 59656
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:19:04] "GET /jboss.css HTTP/1.1" 400 59755
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:19:04] "GET /is_test HTTP/1.1" 400 59733
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:19:05] "GET /axis2 HTTP/1.1" 400 59711
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:19:06] "GET /console/css/login.css HTTP/1.1" 400 59887
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:19:06] "GET /resource/js/cj.js HTTP/1.1" 400 59843
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[17/Dec/2017 16:19:07] "GET / HTTP/1.1" 400 59656
+Invalid HTTP_HOST header: u'TopJuegos:8000'. You may need to add u'topjuegos' to ALLOWED_HOSTS.
+[17/Dec/2017 18:03:02] "GET / HTTP/1.0" 400 59052
+[17/Dec/2017 19:24:27] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[18/Dec/2017 00:11:37] "GET / HTTP/1.1" 400 59792
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[18/Dec/2017 00:11:38] "GET /favicon.ico HTTP/1.1" 400 59913
+[18/Dec/2017 02:18:52] code 400, message Bad request syntax ('\x05\x01\x00\x01')
+[18/Dec/2017 02:18:52] " " 400 -
+[18/Dec/2017 02:18:56] code 400, message Bad HTTP/0.9 request type ('\x12\x01\x004\x00\x00\x00\x00\x00\x00\x15\x00\x06\x01\x00\x1b\x00\x01\x02\x00\x1c\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xff in position 29: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[18/Dec/2017 02:19:01] code 400, message Bad request syntax ('\x00:\x00\x00\x01\x00\x00\x00\x019\x01,\x00\x00\x08\x00\x7f\xff\xc6\x0e\x00\x00\x01\x00\x00\x00\x00:\x00\x00\x08\x00AA\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xff in position 18: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[18/Dec/2017 02:19:05] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0e\xe0\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[18/Dec/2017 02:19:10] code 400, message Bad request syntax ('\x00\x00\x00T\x00\x03\x00\x00user\x00postgres\x00database\x00postgres\x00application_name\x00psql\x00client_encoding\x00UTF8\x00\x00')
+[18/Dec/2017 02:19:10] "   T   user postgres database postgres application_name psql client_encoding UTF8  " 400 -
+[18/Dec/2017 02:19:10] code 400, message Bad request syntax ('info')
+[18/Dec/2017 02:19:10] "info" 400 -
+Invalid HTTP_HOST header: u'TopJuegos:8000'. You may need to add u'topjuegos' to ALLOWED_HOSTS.
+[18/Dec/2017 02:19:10] "GET /_cat HTTP/1.1" 400 59096
+[18/Dec/2017 02:19:15] code 400, message Bad HTTP/0.9 request type ('\x80')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[18/Dec/2017 02:19:19] code 400, message Bad request syntax ('\x00\x00\x00\xa7A\x00\x00\x00\x00\x00\x00\xd4\x07\x00\x00\x00\x00\x00\x00admin.$cmd\x00\x00\x00\x00\x00\xff\xff\xff\xff\x13\x00\x00\x00\x10ismaster\x00\x01\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xa7 in position 4: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[18/Dec/2017 02:19:24] code 400, message Bad request syntax ('stat')
+[18/Dec/2017 02:19:24] "stat" 400 -
+Invalid HTTP_HOST header: '18.194.238.146:8000'. You may need to add u'18.194.238.146' to ALLOWED_HOSTS.
+[18/Dec/2017 02:19:24] "GET / HTTP/1.1" 400 59656
+[18/Dec/2017 09:04:22] "GET /TJ/juego_lista/ HTTP/1.0" 200 306924
+[18/Dec/2017 09:04:22] "GET /TJ/statictp/css/style.css HTTP/1.0" 304 0
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:04:22] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5072
+[18/Dec/2017 09:04:22] "GET /TJ/statictp/css/imagen/si.png HTTP/1.0" 304 0
+[18/Dec/2017 09:04:29] "GET /TJ/juego_lista/ HTTP/1.0" 200 306924
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:04:29] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5072
+[18/Dec/2017 09:04:31] "GET /TJ/cerrar/ HTTP/1.0" 302 0
+[18/Dec/2017 09:04:41] "GET /TJ/ HTTP/1.0" 302 0
+[18/Dec/2017 09:04:41] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:04:41] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5072
+[18/Dec/2017 09:04:45] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:04:45] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5063
+[18/Dec/2017 09:04:51] "POST /TJ/ingresar/ HTTP/1.0" 302 0
+[18/Dec/2017 09:04:51] "GET /TJ/privado HTTP/1.0" 301 0
+[18/Dec/2017 09:04:51] "GET /TJ/privado/ HTTP/1.0" 200 2718
+Not Found: /TJ/privado/navbar-top.css
+[18/Dec/2017 09:04:51] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5060
+[18/Dec/2017 09:04:53] "GET /TJ/juego_lista/ HTTP/1.0" 200 306924
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:04:53] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5072
+Not Found: /TJ/juego_lista/admin
+[18/Dec/2017 09:05:28] "GET /TJ/juego_lista/admin HTTP/1.0" 404 5045
+Not Found: /TJ/admin
+[18/Dec/2017 09:05:34] "GET /TJ/admin HTTP/1.0" 404 5009
+[18/Dec/2017 09:06:04] "GET /TJ/api/ HTTP/1.0" 200 53994
+[18/Dec/2017 09:06:04] "GET /TJ/statictp/rest_framework/css/bootstrap.min.css HTTP/1.0" 304 0
+[18/Dec/2017 09:06:04] "GET /TJ/statictp/rest_framework/css/prettify.css HTTP/1.0" 304 0
+[18/Dec/2017 09:06:04] "GET /TJ/statictp/rest_framework/css/bootstrap-tweaks.css HTTP/1.0" 304 0
+[18/Dec/2017 09:06:04] "GET /TJ/statictp/rest_framework/css/default.css HTTP/1.0" 304 0
+[18/Dec/2017 09:06:04] "GET /TJ/statictp/rest_framework/js/jquery-1.12.4.min.js HTTP/1.0" 304 0
+[18/Dec/2017 09:06:04] "GET /TJ/statictp/rest_framework/js/bootstrap.min.js HTTP/1.0" 304 0
+[18/Dec/2017 09:06:04] "GET /TJ/statictp/rest_framework/js/ajax-form.js HTTP/1.0" 304 0
+[18/Dec/2017 09:06:04] "GET /TJ/statictp/rest_framework/js/csrf.js HTTP/1.0" 304 0
+[18/Dec/2017 09:06:04] "GET /TJ/statictp/rest_framework/js/prettify-min.js HTTP/1.0" 304 0
+[18/Dec/2017 09:06:04] "GET /TJ/statictp/rest_framework/js/default.js HTTP/1.0" 304 0
+[18/Dec/2017 09:06:04] "GET /TJ/statictp/rest_framework/img/grid.png HTTP/1.0" 304 0
+Not Found: /TJ/admin
+[18/Dec/2017 09:06:11] "GET /TJ/admin HTTP/1.0" 404 5009
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 16, 2017 - 18:47:08
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[18/Dec/2017 09:10:07] "GET /TJ/juego_lista/ HTTP/1.0" 200 306924
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:10:07] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5075
+Not Found: /TJ/admin
+[18/Dec/2017 09:10:14] "GET /TJ/admin HTTP/1.0" 404 5012
+[18/Dec/2017 09:13:35] "GET /TJ/admin/ HTTP/1.0" 200 8939
+[18/Dec/2017 09:13:36] "GET /TJ/admin/ HTTP/1.0" 200 8939
+[18/Dec/2017 09:13:39] "GET /TJ/admin/webjuego/comentario/ HTTP/1.0" 200 10139
+[18/Dec/2017 09:13:39] "GET /TJ/statictp/admin/js/core.js HTTP/1.0" 200 7976
+[18/Dec/2017 09:13:39] "GET /TJ/statictp/admin/css/changelists.css HTTP/1.0" 200 6170
+[18/Dec/2017 09:13:39] "GET /TJ/admin/jsi18n/ HTTP/1.0" 200 7114
+[18/Dec/2017 09:13:39] "GET /TJ/statictp/admin/js/jquery.init.js HTTP/1.0" 200 363
+[18/Dec/2017 09:13:39] "GET /TJ/statictp/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 258648
+[18/Dec/2017 09:13:39] "GET /TJ/statictp/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 200 6591
+[18/Dec/2017 09:13:39] "GET /TJ/statictp/admin/js/actions.js HTTP/1.0" 200 6501
+[18/Dec/2017 09:13:39] "GET /TJ/statictp/admin/js/urlify.js HTTP/1.0" 200 8186
+[18/Dec/2017 09:13:39] "GET /TJ/statictp/admin/js/prepopulate.js HTTP/1.0" 200 1538
+[18/Dec/2017 09:13:39] "GET /TJ/statictp/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 200 128820
+[18/Dec/2017 09:13:39] "GET /TJ/statictp/admin/img/tooltag-add.svg HTTP/1.0" 200 331
+Internal Server Error: /TJ/admin/webjuego/comentario/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 1568, in changelist_view
+    response = self.response_action(request, queryset=cl.get_queryset(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 1286, in response_action
+    response = func(self, request, queryset)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/actions.py", line 37, in delete_selected
+    queryset, opts, request.user, modeladmin.admin_site, using)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py", line 172, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py", line 232, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py", line 218, in _nested
+    ret = [format_callback(obj)]
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py", line 145, in format_callback
+    force_text(obj))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 80, in force_text
+    s = six.text_type(bytes(s), encoding, errors)
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xf1' in position 0: ordinal not in range(128)
+[18/Dec/2017 09:13:43] "POST /TJ/admin/webjuego/comentario/ HTTP/1.0" 500 137452
+[18/Dec/2017 09:14:14] "GET /TJ/admin/webjuego/comentario/ HTTP/1.0" 200 10139
+[18/Dec/2017 09:14:17] "GET /TJ/admin/webjuego/comentario/wegseth/change/ HTTP/1.0" 200 39226
+[18/Dec/2017 09:14:17] "GET /TJ/statictp/admin/css/forms.css HTTP/1.0" 200 8173
+[18/Dec/2017 09:14:17] "GET /TJ/admin/jsi18n/ HTTP/1.0" 200 7114
+[18/Dec/2017 09:14:17] "GET /TJ/statictp/admin/js/change_form.js HTTP/1.0" 200 712
+[18/Dec/2017 09:14:17] "GET /TJ/statictp/admin/css/widgets.css HTTP/1.0" 200 10340
+[18/Dec/2017 09:14:17] "GET /TJ/statictp/admin/js/prepopulate_init.js HTTP/1.0" 200 495
+[18/Dec/2017 09:14:21] "GET /TJ/admin/webjuego/comentario/ HTTP/1.0" 200 10139
+Internal Server Error: /TJ/admin/webjuego/comentario/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 1568, in changelist_view
+    response = self.response_action(request, queryset=cl.get_queryset(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 1286, in response_action
+    response = func(self, request, queryset)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/actions.py", line 37, in delete_selected
+    queryset, opts, request.user, modeladmin.admin_site, using)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py", line 172, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py", line 232, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py", line 218, in _nested
+    ret = [format_callback(obj)]
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/utils.py", line 145, in format_callback
+    force_text(obj))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 80, in force_text
+    s = six.text_type(bytes(s), encoding, errors)
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xf1' in position 0: ordinal not in range(128)
+[18/Dec/2017 09:14:27] "POST /TJ/admin/webjuego/comentario/ HTTP/1.0" 500 137546
+[18/Dec/2017 09:29:04] "GET /TJ/admin/webjuego/comentario/ HTTP/1.0" 200 10139
+[18/Dec/2017 09:29:08] "GET /TJ/ HTTP/1.0" 302 0
+[18/Dec/2017 09:29:08] "GET /TJ/juego_lista/ HTTP/1.0" 200 306924
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:29:08] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5074
+[18/Dec/2017 09:29:12] "GET /TJ/cerrar/ HTTP/1.0" 302 0
+[18/Dec/2017 09:34:55] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:34:55] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5074
+[18/Dec/2017 09:34:56] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:34:57] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5065
+[18/Dec/2017 09:35:02] "POST /TJ/ingresar/ HTTP/1.0" 302 0
+[18/Dec/2017 09:35:02] "GET /TJ/privado HTTP/1.0" 301 0
+[18/Dec/2017 09:35:02] "GET /TJ/privado/ HTTP/1.0" 200 2718
+Not Found: /TJ/privado/navbar-top.css
+[18/Dec/2017 09:35:02] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5062
+[18/Dec/2017 09:35:04] "GET /TJ/cerrar/ HTTP/1.0" 302 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 18, 2017 - 09:13:27
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[18/Dec/2017 09:35:58] "GET /TJ/privado/ HTTP/1.0" 302 0
+[18/Dec/2017 09:35:59] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+[18/Dec/2017 09:36:00] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:36:00] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5065
+[18/Dec/2017 09:36:00] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:36:00] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5065
+[18/Dec/2017 09:36:01] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:36:01] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5065
+[18/Dec/2017 09:36:05] "POST /TJ/ingresar/ HTTP/1.0" 302 0
+[18/Dec/2017 09:36:05] "GET /TJ/privado HTTP/1.0" 301 0
+[18/Dec/2017 09:36:05] "GET /TJ/privado/ HTTP/1.0" 200 2718
+Not Found: /TJ/privado/navbar-top.css
+[18/Dec/2017 09:36:05] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5062
+[18/Dec/2017 09:36:06] "GET /TJ/cerrar/ HTTP/1.0" 302 0
+Not Found: /TJ/cerrar/TJ/juego_lista/
+[18/Dec/2017 09:36:06] "GET /TJ/cerrar/TJ/juego_lista/ HTTP/1.0" 404 5062
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 18, 2017 - 09:35:56
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[18/Dec/2017 09:36:58] "GET /TJ/privado/ HTTP/1.0" 302 0
+[18/Dec/2017 09:36:59] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+[18/Dec/2017 09:37:00] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:37:00] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5065
+[18/Dec/2017 09:37:00] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:37:00] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5065
+[18/Dec/2017 09:37:04] "POST /TJ/ingresar/ HTTP/1.0" 302 0
+[18/Dec/2017 09:37:04] "GET /TJ/privado HTTP/1.0" 301 0
+[18/Dec/2017 09:37:04] "GET /TJ/privado/ HTTP/1.0" 200 2718
+Not Found: /TJ/privado/navbar-top.css
+[18/Dec/2017 09:37:04] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5062
+[18/Dec/2017 09:37:06] "GET /TJ/cerrar/ HTTP/1.0" 302 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 18, 2017 - 09:36:56
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[18/Dec/2017 09:37:21] "GET /TJ/privado/ HTTP/1.0" 302 0
+[18/Dec/2017 09:37:21] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+[18/Dec/2017 09:37:24] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:37:24] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5065
+[18/Dec/2017 09:37:28] "POST /TJ/ingresar/ HTTP/1.0" 302 0
+[18/Dec/2017 09:37:28] "GET /TJ/privado HTTP/1.0" 301 0
+[18/Dec/2017 09:37:28] "GET /TJ/privado/ HTTP/1.0" 200 2718
+Not Found: /TJ/privado/navbar-top.css
+[18/Dec/2017 09:37:29] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5062
+[18/Dec/2017 09:37:30] "GET /TJ/cerrar/ HTTP/1.0" 302 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 18, 2017 - 09:37:19
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[18/Dec/2017 09:38:18] "GET /TJ/privado/ HTTP/1.0" 302 0
+[18/Dec/2017 09:38:19] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+[18/Dec/2017 09:38:21] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:38:21] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5067
+[18/Dec/2017 09:38:21] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:38:21] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5067
+[18/Dec/2017 09:38:25] "POST /TJ/ingresar/ HTTP/1.0" 302 0
+[18/Dec/2017 09:38:25] "GET /TJ/privado HTTP/1.0" 301 0
+[18/Dec/2017 09:38:25] "GET /TJ/privado/ HTTP/1.0" 200 2721
+Not Found: /TJ/privado/navbar-top.css
+[18/Dec/2017 09:38:25] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5064
+[18/Dec/2017 09:38:27] "GET /TJ/TJ/cerrar/ HTTP/1.0" 302 0
+[18/Dec/2017 09:38:31] "GET /TJ/privado/ HTTP/1.0" 302 0
+[18/Dec/2017 09:38:31] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 18, 2017 - 09:38:16
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[18/Dec/2017 09:39:55] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:39:55] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5067
+[18/Dec/2017 09:39:55] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:39:55] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5067
+[18/Dec/2017 09:40:00] "POST /TJ/ingresar/ HTTP/1.0" 302 0
+[18/Dec/2017 09:40:00] "GET /TJ/privado HTTP/1.0" 301 0
+[18/Dec/2017 09:40:00] "GET /TJ/privado/ HTTP/1.0" 200 2721
+Not Found: /TJ/privado/navbar-top.css
+[18/Dec/2017 09:40:00] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5064
+[18/Dec/2017 09:40:01] "GET /TJ/TJ/cerrar/ HTTP/1.0" 302 0
+Not Found: /TJ/TJ/cerrar/TJ/juego_lista/
+[18/Dec/2017 09:40:01] "GET /TJ/TJ/cerrar/TJ/juego_lista/ HTTP/1.0" 404 5073
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 18, 2017 - 09:39:52
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[18/Dec/2017 09:40:29] "GET /TJ/privado/ HTTP/1.0" 302 0
+[18/Dec/2017 09:40:30] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+[18/Dec/2017 09:40:31] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:40:31] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5067
+[18/Dec/2017 09:40:31] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:40:32] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5067
+[18/Dec/2017 09:40:36] "POST /TJ/ingresar/ HTTP/1.0" 302 0
+[18/Dec/2017 09:40:36] "GET /TJ/privado HTTP/1.0" 301 0
+[18/Dec/2017 09:40:37] "GET /TJ/privado/ HTTP/1.0" 200 2721
+Not Found: /TJ/privado/navbar-top.css
+[18/Dec/2017 09:40:37] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5064
+[18/Dec/2017 09:40:38] "GET /TJ/TJ/cerrar/ HTTP/1.0" 302 0
+[18/Dec/2017 09:40:39] "GET /TJ/privado/ HTTP/1.0" 302 0
+[18/Dec/2017 09:40:40] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+[18/Dec/2017 09:40:41] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:40:41] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5067
+[18/Dec/2017 09:40:41] "GET /TJ/ingresar/ HTTP/1.0" 200 2954
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 09:40:41] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5067
+[18/Dec/2017 09:40:42] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:40:42] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+[18/Dec/2017 09:40:56] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+[18/Dec/2017 09:40:57] "GET /TJ/statictp/css/style.css HTTP/1.0" 200 480
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:40:57] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:40:57] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+[18/Dec/2017 09:40:57] "GET /TJ/statictp/css/imagen/si.png HTTP/1.0" 200 2819608
+[18/Dec/2017 09:41:47] "GET /TJ/juego_lista/ HTTP/1.0" 200 149799
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:41:47] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+Not Found: /statictp/css/imagen/ooo.jpg
+[18/Dec/2017 09:41:48] "GET /statictp/css/imagen/ooo.jpg HTTP/1.0" 404 2599
+[18/Dec/2017 09:41:49] "GET /TJ/juego_lista/ HTTP/1.0" 200 149799
+Not Found: /TJ/juego_lista/navbar-top.css
+Not Found: /statictp/css/imagen/ooo.jpg
+[18/Dec/2017 09:41:49] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+[18/Dec/2017 09:41:49] "GET /statictp/css/imagen/ooo.jpg HTTP/1.0" 404 2599
+[18/Dec/2017 09:41:49] "GET /TJ/juego_lista/ HTTP/1.0" 200 149799
+Not Found: /statictp/css/imagen/ooo.jpg
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:41:49] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+[18/Dec/2017 09:41:49] "GET /statictp/css/imagen/ooo.jpg HTTP/1.0" 404 2599
+[18/Dec/2017 09:41:53] "GET /TJ/juego_lista/ HTTP/1.0" 200 149799
+[18/Dec/2017 09:41:53] "GET /TJ/statictp/css/style.css HTTP/1.0" 304 0
+Not Found: /statictp/css/imagen/ooo.jpg
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:41:53] "GET /statictp/css/imagen/ooo.jpg HTTP/1.0" 404 2599
+[18/Dec/2017 09:41:53] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:41:53] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+Not Found: /statictp/css/imagen/ooo.jpg
+[18/Dec/2017 09:41:53] "GET /statictp/css/imagen/ooo.jpg HTTP/1.0" 404 2599
+[18/Dec/2017 09:41:53] "GET /TJ/statictp/css/imagen/si.png HTTP/1.0" 304 0
+[18/Dec/2017 09:42:29] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+[18/Dec/2017 09:42:30] "GET /TJ/statictp/css/style.css HTTP/1.0" 304 0
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:42:30] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:42:30] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+[18/Dec/2017 09:42:30] "GET /TJ/statictp/css/imagen/si.png HTTP/1.0" 304 0
+[18/Dec/2017 09:43:29] "GET /TJ/juego_lista/ HTTP/1.0" 200 149798
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:43:29] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+[18/Dec/2017 09:43:33] "GET /TJ/juego_lista/ HTTP/1.0" 200 149798
+[18/Dec/2017 09:43:33] "GET /TJ/statictp/css/style.css HTTP/1.0" 304 0
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:43:33] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:43:34] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+[18/Dec/2017 09:43:34] "GET /TJ/statictp/css/imagen/si.png HTTP/1.0" 304 0
+Not Found: /TJ/juego_lista/webjuego/static/css/imagen/logo.jpg
+[18/Dec/2017 09:43:53] "GET /TJ/juego_lista/webjuego/static/css/imagen/logo.jpg HTTP/1.0" 404 5139
+Not Found: /TJ/juego_lista/webjuego/statictp/css/imagen/logo.jpg
+[18/Dec/2017 09:44:31] "GET /TJ/juego_lista/webjuego/statictp/css/imagen/logo.jpg HTTP/1.0" 404 5145
+[18/Dec/2017 09:44:56] "GET /TJ/juego_lista/ HTTP/1.0" 200 149798
+[18/Dec/2017 09:44:57] "GET /TJ/statictp/css/style.css HTTP/1.0" 304 0
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:44:57] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:44:57] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+[18/Dec/2017 09:44:57] "GET /TJ/statictp/css/imagen/si.png HTTP/1.0" 304 0
+Not Found: /statictp/css/imagen/ooo.jpg
+[18/Dec/2017 09:46:12] "GET /statictp/css/imagen/ooo.jpg HTTP/1.0" 404 2599
+[18/Dec/2017 09:47:15] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:47:15] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:47:20] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+Not Found: /TJ/juego_lista/T/static/css/imagen/ooo.jpg
+[18/Dec/2017 09:47:46] "GET /TJ/juego_lista/T/static/css/imagen/ooo.jpg HTTP/1.0" 404 5115
+Not Found: /TJ/juego_lista/TJ/static/css/imagen/ooo.jpg
+[18/Dec/2017 09:47:54] "GET /TJ/juego_lista/TJ/static/css/imagen/ooo.jpg HTTP/1.0" 404 5118
+Not Found: /TJ/juego_lista/T/static/css/imagen/ooo.jpg
+[18/Dec/2017 09:48:19] "GET /TJ/juego_lista/T/static/css/imagen/ooo.jpg HTTP/1.0" 404 5115
+Not Found: /TJ/juego_lista/TJ/static/css/imagen/ooo.jpg
+[18/Dec/2017 09:48:26] "GET /TJ/juego_lista/TJ/static/css/imagen/ooo.jpg HTTP/1.0" 404 5118
+Not Found: /TJ/juego_lista/APP/webjuego/static/css/imagen/ooo.jpg
+[18/Dec/2017 09:48:46] "GET /TJ/juego_lista/APP/webjuego/static/css/imagen/ooo.jpg HTTP/1.0" 404 5148
+Not Found: /TJ/juego_lista/webjuego/static/css/imagen/ooo.jpg
+[18/Dec/2017 09:49:34] "GET /TJ/juego_lista/webjuego/static/css/imagen/ooo.jpg HTTP/1.0" 404 5136
+Not Found: /statictp/css/imagen/ooo.jpg
+[18/Dec/2017 09:50:47] "GET /statictp/css/imagen/ooo.jpg HTTP/1.0" 404 2599
+Not Found: /statictp/static/css/imagen/ooo.jpg
+[18/Dec/2017 09:51:05] "GET /statictp/static/css/imagen/ooo.jpg HTTP/1.0" 404 2620
+Not Found: /statictp/webjuego/static/css/imagen/ooo.jpg
+[18/Dec/2017 09:51:18] "GET /statictp/webjuego/static/css/imagen/ooo.jpg HTTP/1.0" 404 2647
+Not Found: /statictp/APP/webjuego/static/css/imagen/ooo.jpg
+[18/Dec/2017 09:51:34] "GET /statictp/APP/webjuego/static/css/imagen/ooo.jpg HTTP/1.0" 404 2659
+[18/Dec/2017 09:51:42] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:51:42] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 18, 2017 - 09:40:26
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[18/Dec/2017 09:53:23] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:53:23] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+[18/Dec/2017 09:53:27] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:53:27] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 18, 2017 - 09:53:20
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[18/Dec/2017 09:53:39] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:53:39] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5076
+Not Found: /TJ/juego_lista/media/fotos/ooo.jpg
+[18/Dec/2017 09:54:39] "GET /TJ/juego_lista/media/fotos/ooo.jpg HTTP/1.0" 404 5091
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 18, 2017 - 09:53:37
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[18/Dec/2017 09:55:22] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:55:23] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+Not Found: /TJ/juego_lista/imagen/ooo.jpg
+[18/Dec/2017 09:57:21] "GET /TJ/juego_lista/imagen/ooo.jpg HTTP/1.0" 404 5084
+Not Found: /TJ/juego_lista/imagen/ooo.jpg
+[18/Dec/2017 09:58:27] "GET /TJ/juego_lista/imagen/ooo.jpg HTTP/1.0" 404 5084
+[18/Dec/2017 09:59:30] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 09:59:30] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+Not Found: /TJ/juego_lista/TJ/statict/css/imagen/ooo.jpg
+[18/Dec/2017 09:59:53] "GET /TJ/juego_lista/TJ/statict/css/imagen/ooo.jpg HTTP/1.0" 404 5129
+Not Found: /TJ/juego_lista/TJ/staticttp/css/imagen/ooo.jpg
+[18/Dec/2017 10:00:00] "GET /TJ/juego_lista/TJ/staticttp/css/imagen/ooo.jpg HTTP/1.0" 404 5135
+Not Found: /TJ/juego_lista/TJ/statictp/css/imagen/ooo.jpg
+[18/Dec/2017 10:00:06] "GET /TJ/juego_lista/TJ/statictp/css/imagen/ooo.jpg HTTP/1.0" 404 5132
+Not Found: /TJ/juego_lista/TJ/static/css/imagen/ooo.jpg
+[18/Dec/2017 10:01:07] "GET /TJ/juego_lista/TJ/static/css/imagen/ooo.jpg HTTP/1.0" 404 5126
+Not Found: /TJ/juego_lista/TJ/imagen/ooo.jpg
+[18/Dec/2017 10:01:22] "GET /TJ/juego_lista/TJ/imagen/ooo.jpg HTTP/1.0" 404 5093
+Not Found: /TJ/juego_lista/statictp/imagen/ooo.jpg
+[18/Dec/2017 10:01:48] "GET /TJ/juego_lista/statictp/imagen/ooo.jpg HTTP/1.0" 404 5111
+Not Found: /TJ/juego_lista/ooo.jpg
+[18/Dec/2017 10:02:24] "GET /TJ/juego_lista/ooo.jpg HTTP/1.0" 404 5063
+Not Found: /TJ/juego_lista/imagen/ooo.jpg
+[18/Dec/2017 10:02:39] "GET /TJ/juego_lista/imagen/ooo.jpg HTTP/1.0" 404 5084
+Not Found: /TJ/juego_lista/css/imagen/ooo.jpg
+[18/Dec/2017 10:02:58] "GET /TJ/juego_lista/css/imagen/ooo.jpg HTTP/1.0" 404 5096
+Not Found: /TJ/juego_lista/static/css/imagen/ooo.jpg
+[18/Dec/2017 10:03:16] "GET /TJ/juego_lista/static/css/imagen/ooo.jpg HTTP/1.0" 404 5117
+Not Found: /TJ/juego_lista/statictp/css/imagen/ooo.jpg
+[18/Dec/2017 10:03:24] "GET /TJ/juego_lista/statictp/css/imagen/ooo.jpg HTTP/1.0" 404 5123
+[18/Dec/2017 10:04:07] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 10:04:07] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+[18/Dec/2017 10:04:07] "GET /TJ/juego_lista/ HTTP/1.0" 200 149797
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 10:04:07] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+[18/Dec/2017 10:04:36] "GET /TJ/juego_lista/ HTTP/1.0" 200 149806
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 10:04:36] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+[18/Dec/2017 10:04:39] "GET /TJ/juego_lista/index HTTP/1.0" 301 0
+[18/Dec/2017 10:04:39] "GET /TJ/juego_lista/index/ HTTP/1.0" 200 2480
+Not Found: /TJ/juego_lista/index/navbar-top.css
+[18/Dec/2017 10:04:39] "GET /TJ/juego_lista/index/navbar-top.css HTTP/1.0" 404 5102
+[18/Dec/2017 10:14:59] "GET /TJ/juego_lista/ HTTP/1.0" 200 149806
+[18/Dec/2017 10:15:00] "GET /TJ/statictp/css/style.css HTTP/1.0" 200 480
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 10:15:00] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 10:15:00] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+[18/Dec/2017 10:15:00] "GET /TJ/statictp/css/imagen/si.png HTTP/1.0" 200 2819608
+[18/Dec/2017 10:16:55] "GET /TJ/juego_lista/index/ HTTP/1.0" 200 2480
+Not Found: /TJ/juego_lista/index/navbar-top.css
+[18/Dec/2017 10:16:55] "GET /TJ/juego_lista/index/navbar-top.css HTTP/1.0" 404 5102
+[18/Dec/2017 10:16:57] "GET /TJ/juego_lista/index/ HTTP/1.0" 200 2480
+Not Found: /TJ/juego_lista/index/navbar-top.css
+[18/Dec/2017 10:16:57] "GET /TJ/juego_lista/index/navbar-top.css HTTP/1.0" 404 5102
+[18/Dec/2017 10:16:57] "GET /TJ/juego_lista/index/ HTTP/1.0" 200 2480
+Not Found: /TJ/juego_lista/index/navbar-top.css
+[18/Dec/2017 10:16:57] "GET /TJ/juego_lista/index/navbar-top.css HTTP/1.0" 404 5102
+[18/Dec/2017 10:16:58] "GET /TJ/juego_lista/index/ HTTP/1.0" 200 2480
+Not Found: /TJ/juego_lista/index/navbar-top.css
+[18/Dec/2017 10:16:58] "GET /TJ/juego_lista/index/navbar-top.css HTTP/1.0" 404 5102
+[18/Dec/2017 10:16:58] "GET /TJ/juego_lista/index/ HTTP/1.0" 200 2480
+Not Found: /TJ/juego_lista/index/navbar-top.css
+[18/Dec/2017 10:16:58] "GET /TJ/juego_lista/index/navbar-top.css HTTP/1.0" 404 5102
+[18/Dec/2017 10:16:58] "GET /TJ/juego_lista/index/ HTTP/1.0" 200 2480
+Not Found: /TJ/juego_lista/index/navbar-top.css
+[18/Dec/2017 10:16:58] "GET /TJ/juego_lista/index/navbar-top.css HTTP/1.0" 404 5102
+[18/Dec/2017 10:16:59] "GET /TJ/juego_lista/juego_lista/index/index/ HTTP/1.0" 200 2480
+Not Found: /TJ/juego_lista/juego_lista/index/index/navbar-top.css
+[18/Dec/2017 10:17:00] "GET /TJ/juego_lista/juego_lista/index/index/navbar-top.css HTTP/1.0" 404 5156
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 18, 2017 - 09:55:18
+Django version 1.11.7, using settings 'videojuegos.settings'
+Starting development server at http://172.17.0.4:8000/
+Quit the server with CONTROL-C.
+[18/Dec/2017 10:19:31] "GET /TJ/juego_lista/juego_lista/index/index/ HTTP/1.0" 200 365
+[18/Dec/2017 10:19:32] "GET /TJ/juego_lista/juego_lista/index/index/ HTTP/1.0" 200 365
+[18/Dec/2017 10:19:46] "GET /TJ/juego_lista/index/ HTTP/1.0" 200 365
+[18/Dec/2017 10:19:47] "GET /TJ/juego_lista/index/ HTTP/1.0" 200 365
+[18/Dec/2017 10:19:50] "GET /TJ/juego_lista/ HTTP/1.0" 200 149806
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 10:19:50] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 10:19:55] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+Not Found: /statictp/
+[18/Dec/2017 10:20:11] "GET /statictp/ HTTP/1.0" 404 2549
+[18/Dec/2017 10:20:45] "GET /TJ/juego_lista/ HTTP/1.0" 200 149796
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 10:20:45] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+Not Found: /statictp
+[18/Dec/2017 10:20:58] "GET /statictp HTTP/1.0" 404 2546
+Not Found: /statictp/
+[18/Dec/2017 10:21:09] "GET /statictp/ HTTP/1.0" 404 2549
+Not Found: /statictp/ooo.jpg
+[18/Dec/2017 10:21:28] "GET /statictp/ooo.jpg HTTP/1.0" 404 2570
+Not Found: /statictp/css/imagen/ooo.jpg
+[18/Dec/2017 10:21:48] "GET /statictp/css/imagen/ooo.jpg HTTP/1.0" 404 2603
+Not Found: /statictp/APP/webjuego/css/imagen/ooo.jpg
+[18/Dec/2017 10:22:10] "GET /statictp/APP/webjuego/css/imagen/ooo.jpg HTTP/1.0" 404 2642
+Not Found: /statictp/APP/webjuego/static/css/imagen/ooo.jpg
+[18/Dec/2017 10:22:38] "GET /statictp/APP/webjuego/static/css/imagen/ooo.jpg HTTP/1.0" 404 2663
+Not Found: /statictp/webjuego/static/css/imagen/ooo.jpg
+[18/Dec/2017 10:22:54] "GET /statictp/webjuego/static/css/imagen/ooo.jpg HTTP/1.0" 404 2651
+Not Found: /statictp/static/css/imagen/ooo.jpg
+[18/Dec/2017 10:23:04] "GET /statictp/static/css/imagen/ooo.jpg HTTP/1.0" 404 2624
+Not Found: /statictp/css/imagen/ooo.jpg
+[18/Dec/2017 10:23:11] "GET /statictp/css/imagen/ooo.jpg HTTP/1.0" 404 2603
+Not Found: /statictp/imagen/ooo.jpg
+[18/Dec/2017 10:23:20] "GET /statictp/imagen/ooo.jpg HTTP/1.0" 404 2591
+[18/Dec/2017 10:23:24] "GET /TJ/juego_lista/index/ HTTP/1.0" 200 365
+[18/Dec/2017 10:24:11] "GET /TJ/juego_lista/ HTTP/1.0" 200 149811
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 10:24:11] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+[18/Dec/2017 10:24:16] "GET /TJ/juego_lista/index/ HTTP/1.0" 200 365
+[18/Dec/2017 10:24:50] "GET /TJ/juego_lista/ HTTP/1.0" 200 149811
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 10:24:51] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+[18/Dec/2017 10:24:52] "GET /TJ/ingresar/ HTTP/1.0" 200 2968
+Not Found: /TJ/ingresar/navbar-top.css
+[18/Dec/2017 10:24:52] "GET /TJ/ingresar/navbar-top.css HTTP/1.0" 404 5075
+[18/Dec/2017 10:24:57] "POST /TJ/ingresar/ HTTP/1.0" 302 0
+[18/Dec/2017 10:24:57] "GET /TJ/privado HTTP/1.0" 301 0
+[18/Dec/2017 10:24:57] "GET /TJ/privado/ HTTP/1.0" 200 2735
+Not Found: /TJ/privado/navbar-top.css
+[18/Dec/2017 10:24:57] "GET /TJ/privado/navbar-top.css HTTP/1.0" 404 5072
+[18/Dec/2017 10:24:59] "GET /TJ/juego_lista/ HTTP/1.0" 200 306941
+Not Found: /TJ/juego_lista/navbar-top.css
+[18/Dec/2017 10:24:59] "GET /TJ/juego_lista/navbar-top.css HTTP/1.0" 404 5084
+[18/Dec/2017 10:25:02] "GET /TJ/api/ HTTP/1.0" 200 53994
+[18/Dec/2017 10:25:14] "GET /TJ/api/ HTTP/1.0" 200 53994
+[18/Dec/2017 10:25:17] "GET /TJ/api/?format=api HTTP/1.0" 200 54060
+[18/Dec/2017 10:25:18] "OPTIONS /TJ/api/?format=api HTTP/1.0" 200 9371
